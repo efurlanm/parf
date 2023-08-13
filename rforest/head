@@ -1,0 +1,223 @@
+    Median  Deviation Tag
+ 0.2194E+01  0.1088E+01 build wind float              
+ 0.1534E+01  0.7805E+00 build wind non-float          
+ 0.2102E+01  0.2269E+01 vehic wind float              
+        NaN    Infinity vehic wind non-float          
+ 0.1869E+00    Infinity containers                    
+ 0.8099E-01    Infinity tableware                     
+ 0.2559E+01    Infinity headlamps                     
+  Row#    Outlier Tagged as
+   208    45.1492 build wind float              
+    83    11.5089 vehic wind float              
+   111     7.8362 build wind non-float          
+    12     5.5438 build wind non-float          
+    40     4.6889 build wind non-float          
+    50     4.6820 build wind non-float          
+   212     2.5840 build wind non-float          
+   149     2.5444 build wind non-float          
+   169     2.5179 build wind non-float          
+    63     2.3415 build wind float              
+   119     1.7707 build wind non-float          
+   101     1.6163 build wind float              
+   205     1.5038 build wind non-float          
+   171     1.1022 build wind non-float          
+   172     1.0245 build wind non-float          
+   143     0.9895 build wind float              
+   175     0.8412 build wind float              
+     3     0.8260 build wind float              
+   146     0.7070 build wind non-float          
+    62     0.6200 build wind float              
+    38     0.3184 build wind non-float          
+    14     0.2570 vehic wind float              
+    69     0.1308 build wind non-float          
+    20     0.0996 build wind non-float          
+    78     0.0905 build wind float              
+    76     0.0831 build wind non-float          
+    16     0.0667 build wind non-float          
+   206     0.0577 build wind float              
+    52     0.0576 build wind non-float          
+   200     0.0414 build wind non-float          
+   176     0.0000 headlamps                     
+   179     0.0000 containers                    
+   180     0.0000 tableware                     
+   186     0.0000 headlamps                     
+   190     0.0000 containers                    
+   193     0.0000 tableware                     
+   194     0.0000 headlamps                     
+   195     0.0000 tableware                     
+   207     0.0000 headlamps                     
+   214     0.0000 tableware                     
+     4     0.0000 tableware                     
+     9     0.0000 headlamps                     
+    17     0.0000 headlamps                     
+    19     0.0000 containers                    
+    25     0.0000 containers                    
+    28     0.0000 headlamps                     
+    33     0.0000 tableware                     
+    47     0.0000 containers                    
+    55     0.0000 headlamps                     
+    57     0.0000 headlamps                     
+    66     0.0000 headlamps                     
+    71     0.0000 tableware                     
+    73     0.0000 tableware                     
+    85     0.0000 containers                    
+    91     0.0000 headlamps                     
+    94     0.0000 tableware                     
+    95     0.0000 headlamps                     
+    97     0.0000 headlamps                     
+   103     0.0000 headlamps                     
+   104     0.0000 headlamps                     
+   105     0.0000 headlamps                     
+   106     0.0000 containers                    
+   108     0.0000 headlamps                     
+   110     0.0000 containers                    
+   112     0.0000 headlamps                     
+   114     0.0000 headlamps                     
+   116     0.0000 headlamps                     
+   118     0.0000 headlamps                     
+   125     0.0000 containers                    
+   127     0.0000 headlamps                     
+   128     0.0000 headlamps                     
+   133     0.0000 headlamps                     
+   135     0.0000 containers                    
+   144     0.0000 containers                    
+   151     0.0000 headlamps                     
+   157     0.0000 headlamps                     
+   158     0.0000 containers                    
+   163     0.0000 headlamps                     
+   164     0.0000 containers                    
+   170     0.0000 headlamps                     
+   174     0.0000 headlamps                     
+   198    -0.0622 build wind non-float          
+   182    -0.0814 build wind non-float          
+   184    -0.0942 build wind non-float          
+    86    -0.1057 build wind non-float          
+   138    -0.1297 build wind non-float          
+   140    -0.1742 build wind non-float          
+    31    -0.1957 build wind non-float          
+   187    -0.2014 build wind float              
+    11    -0.2081 build wind non-float          
+   120    -0.2121 build wind float              
+    15    -0.2125 vehic wind float              
+   178    -0.2515 build wind float              
+   159    -0.2609 build wind float              
+   132    -0.2629 build wind non-float          
+    34    -0.2768 build wind non-float          
+    89    -0.3001 build wind float              
+    92    -0.3019 build wind float              
+    22    -0.3071 build wind non-float          
+   145    -0.3107 build wind non-float          
+   197    -0.3454 build wind non-float          
+   213    -0.3625 build wind non-float          
+   137    -0.3657 build wind float              
+    99    -0.3920 build wind non-float          
+    43    -0.3930 build wind non-float          
+   147    -0.4007 build wind non-float          
+   181    -0.4222 build wind non-float          
+   129    -0.4332 build wind float              
+   131    -0.4395 build wind non-float          
+   196    -0.4476 build wind non-float          
+    46    -0.4502 build wind float              
+    74    -0.4543 build wind non-float          
+    29    -0.4622 build wind non-float          
+   142    -0.4635 build wind float              
+    54    -0.5035 build wind non-float          
+   102    -0.5145 build wind non-float          
+    26    -0.5163 build wind non-float          
+    67    -0.5323 build wind float              
+   201    -0.5333 build wind non-float          
+   134    -0.5390 build wind float              
+    68    -0.5450 vehic wind float              
+    39    -0.5475 build wind non-float          
+    98    -0.5634 build wind non-float          
+    35    -0.5657 build wind float              
+    51    -0.5702 build wind float              
+    45    -0.5857 vehic wind float              
+   185    -0.5860 build wind float              
+    84    -0.5896 build wind float              
+   204    -0.5934 build wind float              
+    48    -0.5947 build wind float              
+    90    -0.6102 build wind non-float          
+   167    -0.6140 build wind float              
+   156    -0.6359 build wind float              
+    42    -0.6374 build wind non-float          
+   168    -0.6418 build wind non-float          
+   100    -0.6429 build wind non-float          
+    77    -0.6458 build wind float              
+   121    -0.6503 build wind non-float          
+    44    -0.6505 build wind non-float          
+    72    -0.6532 build wind non-float          
+   202    -0.6685 build wind float              
+     6    -0.6729 build wind non-float          
+    81    -0.6740 build wind float              
+   141    -0.6744 build wind float              
+   107    -0.6926 build wind non-float          
+   136    -0.7221 build wind float              
+    80    -0.7324 build wind float              
+    49    -0.7519 build wind float              
+   126    -0.7662 build wind float              
+    24    -0.7754 build wind float              
+   209    -0.7890 build wind float              
+    10    -0.8005 build wind non-float          
+    37    -0.8012 build wind float              
+   130    -0.8029 build wind float              
+   109    -0.8169 build wind float              
+   199    -0.8204 build wind non-float          
+    60    -0.8246 build wind non-float          
+   115    -0.8314 vehic wind float              
+   155    -0.8336 vehic wind float              
+   154    -0.8352 build wind non-float          
+    79    -0.8366 vehic wind float              
+   177    -0.8443 build wind float              
+     2    -0.8493 vehic wind float              
+    18    -0.8513 build wind non-float          
+   113    -0.8618 build wind float              
+    82    -0.8711 build wind float              
+   210    -0.8720 vehic wind float              
+    59    -0.8759 vehic wind float              
+     7    -0.8779 vehic wind float              
+    27    -0.8796 build wind non-float          
+   189    -0.8813 vehic wind float              
+    32    -0.8837 vehic wind float              
+    30    -0.8906 vehic wind float              
+   203    -0.8932 vehic wind float              
+   160    -0.8947 build wind non-float          
+   211    -0.8955 build wind non-float          
+   183    -0.8973 vehic wind float              
+    61    -0.8995 build wind non-float          
+   117    -0.9009 build wind non-float          
+    96    -0.9143 build wind float              
+   152    -0.9179 build wind float              
+    58    -0.9291 build wind float              
+   191    -0.9481 build wind float              
+    41    -1.0079 build wind float              
+    53    -1.0125 build wind float              
+   150    -1.0478 build wind non-float          
+   153    -1.0558 build wind non-float          
+     5    -1.0657 build wind non-float          
+   173    -1.1097 build wind float              
+   139    -1.1103 build wind float              
+    56    -1.1121 build wind float              
+   148    -1.1209 build wind non-float          
+     1    -1.1238 build wind float              
+    23    -1.1702 build wind non-float          
+   162    -1.2520 build wind float              
+    88    -1.2547 build wind float              
+   188    -1.3027 build wind float              
+   122    -1.3223 build wind float              
+    75    -1.3280 build wind float              
+    65    -1.3314 build wind float              
+    13    -1.3515 build wind float              
+    21    -1.3611 build wind float              
+   192    -1.3685 build wind float              
+     8    -1.3940 build wind float              
+    70    -1.4215 build wind float              
+    87    -1.4321 build wind non-float          
+    36    -1.4429 build wind float              
+    93    -1.4831 build wind float              
+   165    -1.5604 build wind non-float          
+   161    -1.5692 build wind non-float          
+   123    -1.6543 build wind non-float          
+   124    -1.6659 build wind non-float          
+    64    -1.7188 build wind float              
+   166    -1.7548 build wind float              
