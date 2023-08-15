@@ -1,6 +1,6 @@
 # My personal notes on machine learning
 
-*Last edited 2023-06-30*
+*Last edited: 2023-06-30*
 
 This repository contains my collection of materials and random personal notes that I take while researching and playing Machine Learning (ML). It is a work in progress and is subject to constant change.
 
@@ -37,6 +37,6 @@ Materials on the various subjects are organized into sub-directories :
 <table>
   <tr>
     <td><img src="img/construction.gif"></td>
-    <td>This repository is permanently under construction, so its content changes constantly.</td>
+    <td>This work is permanently under construction, so its content changes constantly.</td>
   </tr>
 </table>
