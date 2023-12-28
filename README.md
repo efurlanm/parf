@@ -1,8 +1,8 @@
 # My personal notes on machine learning
 
-*Last edited: 2023-06-30*
+*Last edited: 2023-10-15*
 
-This repository contains my collection of materials and random personal notes that I take while researching and playing Machine Learning (ML). It is a work in progress and is subject to constant change.
+This repository contains my collection of materials and random notes that I take while researching and playing Machine Learning (ML). It is a work in progress and is subject to constant change.
 
 ## Contents of this repo
 
@@ -14,6 +14,12 @@ Materials on the various subjects are organized into sub-directories :
 * [burgers](burgers) - notes related to the convection diffusion equation that is used in several examples in this repo
 * [deepxde](deepxde) - material direct related to the [DeepXDE library](https://deepxde.readthedocs.io)
 * [datasets](datasets) - some datasets used in the works
+
+## Horovod
+
+[Horovod](https://horovod.readthedocs.io/en/stable/) was created internally at Uber, as a model for distributed use of TensorFlow. The horovod directory contains some Notebooks with examples.
+
+* [hv-tf1-mnist.ipynb](horovod/hv-tf1-mnist.ipynb)
 
 ## Some info available in my other repos
 

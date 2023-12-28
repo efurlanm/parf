@@ -1,5 +1,7 @@
 # PINN
 
+*Last edited: 2023-10-15*
+
 [Physics-Informed Neural Networks (PINNs)](https://en.wikipedia.org/wiki/Physics-informed_neural_networks) are a type of universal function approximators that can incorporate the knowledge of physical laws that govern a given set of data in the learning process and that can be described by partial differential equations. This directory contains some experiments I've done with PINN, including references to other repos.
 
 ## Files in the current directory
@@ -18,3 +20,8 @@
 * In [CAP-418 course notes](https://github.com/efurlanm/418) I made this Notebook :
   
   * [pinn-quadrature-burgers.ipynb](https://github.com/efurlanm/418/blob/main/pinn-quadrature-burgers.ipynb) - based on the works of [Pierre Jacquier](https://github.com/pierremtb/PINNs-TF2.0), [Maziar Raissi](https://github.com/maziarraissi/PINNs), and [John Burkardt](https://people.sc.fsu.edu/~jburkardt/)
+
+## Links of interest
+
+- [Horovod](https://github.com/horovod/horovod) - a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet. Take a single-GPU training script and successfully scale it to train across many GPUs in parallel. Can run on a single-GPU, multiple-GPUs, or even multiple hosts without any further code changes. You can use both the MPI communication library and Gloo developed by Facebook.
+- [HorovodPINN](https://github.com/pescap/HorovodPINNs) - Data-based parallel acceleration for physics-informed neural networks (PINNs) via Horovod. Includes code based on Raissi's PINN.
