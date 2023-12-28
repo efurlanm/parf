@@ -1,6 +1,6 @@
 # My personal notes on machine learning
 
-*Last edited: 2023-10-15*
+*Last edited: 2023-12-28*
 
 This repository contains my collection of materials and random notes that I take while researching and playing Machine Learning (ML). It is a work in progress and is subject to constant change.
 
