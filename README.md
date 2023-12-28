@@ -17,7 +17,7 @@ Materials on the various subjects are organized into sub-directories :
 
 ## Horovod
 
-[Horovod](https://horovod.readthedocs.io/en/stable/) was created internally at Uber, as a model for distributed use of TensorFlow. The horovod directory contains some Notebooks with examples.
+[Horovod](https://horovod.readthedocs.io/en/stable/) was created internally at Uber as a model for distributed use of TensorFlow. The horovod directory contains some Notebooks with examples.
 
 * [hv-tf1-mnist.ipynb](horovod/hv-tf1-mnist.ipynb)
 
