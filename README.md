@@ -17,9 +17,12 @@ Materials on the various subjects are organized into sub-directories :
 
 ## Horovod
 
-[Horovod](https://horovod.readthedocs.io/en/stable/) was created internally at Uber as a model for distributed use of TensorFlow. The horovod directory contains some Notebooks with examples:
+[Horovod](https://horovod.readthedocs.io/en/stable/) was created internally at Uber to make it easy to use a single-GPU training script and successfully scale it to train on many GPUs in parallel.
 
-* [hv-tf1-mnist.ipynb](horovod/hv-tf1-mnist.ipynb)
+The horovod directory contains some Notebooks with examples:
+
+* [install-horov-tf1-sd.ipynb](horovod/install-horov-tf1-sd.ipynb) - Installing Horovod and TensorFlow v1
+* [hv-tf1-mnist.ipynb](horovod/hv-tf1-mnist.ipynb) - MNIST with TensorFlow v1 using MPI through Horovod
 
 ## Some info available in my other repos
 
