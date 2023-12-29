@@ -21,8 +21,8 @@ Materials on the various subjects are organized into sub-directories :
 
 The horovod directory contains some Notebooks with examples:
 
-* [install-horov-tf1-sd.ipynb](horovod/install-horov-tf1-sd.ipynb) - Installing Horovod and TensorFlow v1
-* [hv-tf1-mnist.ipynb](horovod/hv-tf1-mnist.ipynb) - MNIST with TensorFlow v1 using MPI through Horovod
+* [install-horov-tf1-sd.ipynb](horovod/install-horov-tf1-sd.ipynb) - Installing Horovod and TensorFlow v1 on SDumont supercomputer.
+* [hv-tf1-mnist.ipynb](horovod/hv-tf1-mnist.ipynb) - MNIST with TensorFlow v1 using MPI through Horovod, running on SDumont.
 
 ## Some info available in my other repos
 
