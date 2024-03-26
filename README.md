@@ -1,13 +1,14 @@
-# My personal notes on machine learning
+# My personal notes on Machine Learning (ML) and related topics
 
-*Last edited: 2023-12-28*
+*Last edited: 2024-03-26*
 
-This repository contains my collection of materials and random notes that I take while researching and playing Machine Learning (ML). It is a work in progress and is subject to constant change.
+This repository contains my collection of materials and random notes I make while researching and playing Machine Learning (ML). It includes subjects that are somehow related in one way or another, such as machine learning, numerical methods, differential calculus, libraries, implementations, materials that I ended up using during my studies, and other subjects that I found interesting. It is a work in progress and subject to constant change.
 
 ## Contents of this repo
 
-Materials on the various subjects are organized into sub-directories :
+Materials on the various subjects are organized into sub-directories (unsorted list):
 
+* [Nektar++](https://www.nektar.info/) - Nektar++ Spectral/HP Element Framework running on Colab using [udocker](https://indigo-dc.github.io/udocker/)
 * [pinn](pinn) -  notes and materials regarding Physics-Informed Neural Networks (PINN)
 * [parf](parf) - Random Forest (RF) algorithm in Fortran
 * [rforest](rforest) - RF algorithm in Python
