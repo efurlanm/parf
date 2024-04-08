@@ -9,7 +9,7 @@ This repo contains my collection of materials and random notes I make while rese
 Some materials are in the form of simple files and others are organized in subdirectories (unordered list):
 
 * [sparsedynamics](sparsedynamics): mirror of [sparsedynamics.zip](http://faculty.washington.edu/sbrunton/sparsedynamics.zip) from [Brunton et al.  (2016)](https://doi.org/10.1073/pnas.1517384113), used e.g. in SINDy [[1]](https://rajdandekar.github.io/SINDYExamples_Julia/), [[2]](https://pysindy.readthedocs.io/en/stable/examples/3_original_paper/example.html)
-* [nektar](https://www.nektar.info/): Nektar++ Spectral / HP Element Framework running on Colab using [udocker](https://indigo-dc.github.io/udocker/)
+* [nektar](nektar): [Nektar++](https://www.nektar.info/) Spectral / HP Element Framework running on Colab using [udocker](https://indigo-dc.github.io/udocker/)
 * [pinn](pinn): notes and materials regarding Physics-Informed Neural Networks (PINN)
 * [parf](parf): Random Forest (RF) algorithm in Fortran
 * [rforest](rforest): RF algorithm in Python
