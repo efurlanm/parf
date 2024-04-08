@@ -1,20 +1,21 @@
-# My personal notes on Machine Learning (ML) and related topics
+# My personal notes on machine learning and other random topics
 
-*Last edited: 2024-03-26*
+*Last edited: 2024-04-08*
 
-This repository contains my collection of materials and random notes I make while researching and playing Machine Learning (ML). It includes subjects that are somehow related in one way or another, such as machine learning, numerical methods, differential calculus, libraries, implementations, materials that I ended up using during my studies, and other subjects that I found interesting. It is a work in progress and subject to constant change.
+This repo contains my collection of materials and random notes I make while researching and playing with Machine Learning (ML). It includes topics such as numerical methods, differential calculus, libraries, implementations, materials that I ended up using during my research and other random topics that I also found interesting. It is a work in progress and subject to constant change.
 
 ## Contents of this repo
 
 Materials on the various subjects are organized into sub-directories (unsorted list):
 
-* [Nektar++](https://www.nektar.info/) - Nektar++ Spectral/HP Element Framework running on Colab using [udocker](https://indigo-dc.github.io/udocker/)
-* [pinn](pinn) -  notes and materials regarding Physics-Informed Neural Networks (PINN)
-* [parf](parf) - Random Forest (RF) algorithm in Fortran
-* [rforest](rforest) - RF algorithm in Python
-* [burgers](burgers) - notes related to the convection diffusion equation that is used in several examples in this repo
-* [deepxde](deepxde) - material direct related to the [DeepXDE library](https://deepxde.readthedocs.io)
-* [datasets](datasets) - some datasets used in the works
+* [sparsedynamics](sparsedynamics): mirror of [sparsedynamics.zip](http://faculty.washington.edu/sbrunton/sparsedynamics.zip) from [Brunton et al.  (2016)](https://doi.org/10.1073/pnas.1517384113), used e.g. in SINDy [[1]](https://rajdandekar.github.io/SINDYExamples_Julia/), [[2]](https://pysindy.readthedocs.io/en/stable/examples/3_original_paper/example.html)
+* [Nektar++](https://www.nektar.info/): Spectral/HP Element Framework running on Colab using [udocker](https://indigo-dc.github.io/udocker/)
+* [pinn](pinn): notes and materials regarding Physics-Informed Neural Networks (PINN)
+* [parf](parf): Random Forest (RF) algorithm in Fortran
+* [rforest](rforest): RF algorithm in Python
+* [burgers](burgers): notes related to the convection diffusion equation that is used in several examples in this repo
+* [deepxde](deepxde): material direct related to the [DeepXDE library](https://deepxde.readthedocs.io)
+* [datasets](datasets): some datasets used in the works
 
 ## Horovod
 
@@ -39,11 +40,12 @@ The horovod directory contains some Notebooks with examples:
   * [project4-cnn.ipynb](https://github.com/efurlanm/351/blob/main/project4-cnn.ipynb) - a Convolutional Neural Network (CNN, or ConvNet) is a class of artificial neural network (ANN), most commonly applied to analyze visual imagery
   * [project5-rnn.ipynb](https://github.com/efurlanm/351/blob/main/project5-rnn.ipynb) - a Recurrent Neural Network (RNN) is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes
 
-## Random notes
+## Other random notes
 
 * I use [Zotero](https://www.zotero.org/) as a research assistant, and the library I'm using is in the file [ml.bib](ml.bib) in BibTeX format.
 
 <br>
+
 <table>
   <tr>
     <td><img src="img/construction.gif"></td>
