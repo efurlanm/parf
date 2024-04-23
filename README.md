@@ -1,6 +1,6 @@
-# My personal notes on machine learning and other random topics
+# My personal notes on Machine Learning and other random topics
 
-*Last edited: 2024-04-08*
+*Last edited: 2024-04-23*
 
 This repo contains my collection of materials and random notes I make while researching and playing with Machine Learning (ML). It includes topics such as numerical methods, differential calculus, libraries, implementations, materials that I ended up using during my research and other random topics that I also found interesting. It is a work in progress and subject to constant change.
 
@@ -8,16 +8,17 @@ This repo contains my collection of materials and random notes I make while rese
 
 Some materials are in the form of simple files and others are organized in subdirectories (unordered list):
 
-* [sparsedynamics](sparsedynamics): mirror of [sparsedynamics.zip](http://faculty.washington.edu/sbrunton/sparsedynamics.zip) from [Brunton et al.  (2016)](https://doi.org/10.1073/pnas.1517384113), used e.g. in SINDy [[1]](https://rajdandekar.github.io/SINDYExamples_Julia/), [[2]](https://pysindy.readthedocs.io/en/stable/examples/3_original_paper/example.html).
-* [nektar](nektar): [Nektar++](https://www.nektar.info/) Spectral / HP Element Framework running on Colab using [udocker](https://indigo-dc.github.io/udocker/).
-* [pinn](pinn): notes and materials regarding Physics-Informed Neural Networks (PINN).
-* [parf](parf): Random Forest (RF) algorithm in Fortran.
-* [rforest](rforest): RF algorithm in Python.
-* [burgers](burgers): notes related to the convection diffusion equation that is used in several examples in this repo.
-* [deepxde](deepxde): material direct related to the [DeepXDE library](https://deepxde.readthedocs.io).
-* [weka](weka): contains some links about [Weka](https://www.cs.waikato.ac.nz/ml/weka/).
-* [horovod](horovod): (see below).
-* [discorery](discovery): contains material related to my research on discovering or identifying PDE parameters from data.
+* [sparsedynamics](sparsedynamics) - mirror of [sparsedynamics.zip](http://faculty.washington.edu/sbrunton/sparsedynamics.zip) from [Brunton et al.  (2016)](https://doi.org/10.1073/pnas.1517384113), used e.g. in SINDy [[1]](https://rajdandekar.github.io/SINDYExamples_Julia/), [[2]](https://pysindy.readthedocs.io/en/stable/examples/3_original_paper/example.html).
+* [nektar](nektar) - [Nektar++](https://www.nektar.info/) Spectral / HP Element Framework running on Colab using [udocker](https://indigo-dc.github.io/udocker/).
+* [pinn](pinn) - notes and materials regarding Physics-Informed Neural Networks (PINN).
+* [parf](parf) - Random Forest (RF) algorithm in Fortran.
+* [rforest](rforest) - RF algorithm in Python.
+* [burgers](burgers) - notes related to the convection diffusion equation that is used in several examples in this repo.
+* [deepxde](deepxde) - material direct related to the [DeepXDE library](https://deepxde.readthedocs.io).
+* [weka](weka) - contains some links about [Weka](https://www.cs.waikato.ac.nz/ml/weka/).
+* [horovod](horovod) - (see below).
+* [discorery](discovery) - contains material related to my research on discovering or identifying PDE parameters from data.
+* [data](data) - contains several datasets used in this and other repositories. Centralize files in one place, trying to avoid duplicate files.
 
 ## Horovod
 
@@ -36,15 +37,11 @@ The horovod directory contains some Notebooks with examples:
 
 * In [CAP-351 course notes](https://github.com/efurlanm/351) I made these Notebooks :
   
-  * [project1-mlp.ipynb](https://github.com/efurlanm/351/blob/main/project1-mlp.ipynb): Multilayer Perceptron (MLP) is a fully connected class of feed-forward artificial neural network (ANN).
-  * [project2-som.ipynb](https://github.com/efurlanm/351/blob/main/project2-som.ipynb): a self-organizing map or self-organizing feature map is an unsupervised machine learning technique used to produce a low-dimensional representation of a higher dimensional data set while preserving the topological structure of the data.
-  * [project3-vae.ipynb](https://github.com/efurlanm/351/blob/main/project3-vae.ipynb): in machine learning, a variational auto-encoder, is an artificial neural network architecture introduced by Diederik P. Kingma and Max Welling, belonging to the families of probabilistic graphical models and variational Bayesian methods.
-  * [project4-cnn.ipynb](https://github.com/efurlanm/351/blob/main/project4-cnn.ipynb): a Convolutional Neural Network (CNN, or ConvNet) is a class of artificial neural network (ANN), most commonly applied to analyze visual imagery.
-  * [project5-rnn.ipynb](https://github.com/efurlanm/351/blob/main/project5-rnn.ipynb): a Recurrent Neural Network (RNN) is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes.
-
-## Other random notes
-
-* I use [Zotero](https://www.zotero.org/) as a research assistant, and the library I'm using is in the file [ml.bib](ml.bib) in BibTeX format.
+  * [project1-mlp.ipynb](https://github.com/efurlanm/351/blob/main/project1-mlp.ipynb) - Multilayer Perceptron (MLP) is a fully connected class of feed-forward artificial neural network (ANN).
+  * [project2-som.ipynb](https://github.com/efurlanm/351/blob/main/project2-som.ipynb) - a self-organizing map or self-organizing feature map is an unsupervised machine learning technique used to produce a low-dimensional representation of a higher dimensional data set while preserving the topological structure of the data.
+  * [project3-vae.ipynb](https://github.com/efurlanm/351/blob/main/project3-vae.ipynb) - in machine learning, a variational auto-encoder, is an artificial neural network architecture introduced by Diederik P. Kingma and Max Welling, belonging to the families of probabilistic graphical models and variational Bayesian methods.
+  * [project4-cnn.ipynb](https://github.com/efurlanm/351/blob/main/project4-cnn.ipynb) - a Convolutional Neural Network (CNN, or ConvNet) is a class of artificial neural network (ANN), most commonly applied to analyze visual imagery.
+  * [project5-rnn.ipynb](https://github.com/efurlanm/351/blob/main/project5-rnn.ipynb) - a Recurrent Neural Network (RNN) is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes.
 
 <br>
 
