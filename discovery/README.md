@@ -9,4 +9,4 @@ This repository contains the code, data, manuscript, and other files used in the
 * `Burgers-Exact-Solution.ipynb` - Notebook used to generate the dataset.
 * `Burgers-1D-Discovery-Numerical.ipynb` - Notebook containing discoveries using traditional numerical methods.
 
-The work also used part of the material available in the repository <https://github.com/efurlanm/425>.
+The work also used part of the material available in the repository <https://github.com/efurlanm/425/tree/main/project>.
