@@ -17,7 +17,6 @@ Some materials are in the form of simple files and others are organized in subdi
 * [deepxde](deepxde) - material direct related to the [DeepXDE library](https://deepxde.readthedocs.io).
 * [weka](weka) - contains some links about [Weka](https://www.cs.waikato.ac.nz/ml/weka/).
 * [horovod](horovod) - (see below).
-* [discorery](discovery) - contains material related to my research on discovering or identifying PDE parameters from data.
 
 
 ## Horovod
