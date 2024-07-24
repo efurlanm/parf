@@ -1,10 +1,12 @@
 # Ukk23
 
+The Notebook `ukk23test01-train.ipynb` generates files containing the neural network (NN) model that is later used in the RTE+RRTMGP-NN model. The implementation uses TensorFlow and Python, and Fortran routines are used to generate the training data set. The idea is to replace the RRTMGP lookup tables with NN.
+
+Based on:
+
 Ukkonen, P., & Hogan, R. J. (2023). Implementation of a machine-learned gas optics parameterization in the ECMWF Integrated Forecasting System: RRTMGP-NN 2.0. Geoscientific Model Development, 16(11), 3241–3261. https://doi.org/10.5194/gmd-16-3241-2023
 
-
-
-# CODE
+## CODE AND DATA
 
 RTE+RRTMGP-NN is available on GitHub
 
@@ -13,7 +15,7 @@ RTE+RRTMGP-NN is available on GitHub
     - https://zenodo.org/records/7413935
     - peterukk/rte-rrtmgp-nn: 2.0, Zenodo [code]
 
-The Fortran programmes and Python scripts used for data generation and model training are found in the subdirectory 
+The Fortran programs and Python scripts used for data generation and model training are found in the subdirectory 
 
 - examples/rrtmgp-nn-training
 
