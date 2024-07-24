@@ -1,0 +1,4 @@
+rrtmgp-data-lw-g128-210809.nc
+rrtmgp-data-lw-g256-2018-12-04.nc
+rrtmgp-data-sw-g112-210809.nc
+rrtmgp-data-sw-g224-2018-12-04.nc

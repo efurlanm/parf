@@ -1,0 +1,11 @@
+rlud_Efx_LBLRTM-12-8_rad-irf_r1i1p1f1_gn.nc
+rlud_Efx_LBLRTM-12-8_rad-irf_r1i1p1f2_gn.nc
+rlud_Efx_LBLRTM-12-8_rad-irf_r1i1p1f3_gn.nc
+rlud_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc
+rlud_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn_REF-DP.nc
+_rlud_Efx_RTE-RRTMGP-NN-181204_rad-irf_r1i1p1f1_gn.nc
+rlud_Efx_RTE-RRTMGP-NN-181204_rad-irf_r1i1p1f1_gn.nc
+rsud_Efx_LBLRTM-12-8_rad-irf_r1i1p1f1_gn.nc
+rsud_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc
+rsud_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn_REF-DP.nc
+rsud_Efx_RTE-RRTMGP-NN-181204_rad-irf_r1i1p1f1_gn.nc
