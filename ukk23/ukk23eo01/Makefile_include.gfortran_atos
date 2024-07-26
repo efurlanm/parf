@@ -1,0 +1,46 @@
+# Fortran compiler executable -*- Makefile -*-
+FC = gfortran
+
+# Tell the compiler to accept C-preprocessor directives
+CPPFLAGS = -cpp
+
+# Basic flags such as where to write module files, and an instruction
+#  to read Fortran unformatted data files as big endian 
+BASICFLAGS = -J../mod -fconvert=big-endian -fno-range-check
+
+# GPTL LIBRARY
+#GPTL_TIMING=1
+TIME_DIR=/home/papu/gptl
+FCLIBS=-lunwind  # GPTL needs libunwind, I needed to install it locally and add  to LD_LIBRARY_PATH
+
+BLASLIB=mkl
+
+# OpenMP flag
+OMPFLAG = -fopenmp
+
+ifndef DEBUG
+# --NORMAL CONFIGURATION--
+
+# Optimization flags
+#OPTFLAGS = -O2 -march=native #
+OPTFLAGS = -O3 -march=native # -fopt-info-vec-optimized
+
+# Warning flags: all except those that warn about unused stuff
+WARNFLAGS = -Wall -Wno-unused-label -Wno-unused-dummy-argument -Wno-unused-variable
+
+# Debugging flags, such as "-g" to store debugging symbols, and
+# instructions to abort if certain floating-point exceptions occur
+DEBUGFLAGS = -g -ffpe-trap=invalid,zero,overflow
+
+else
+# --DEBUGGING CONFIGURATION--
+OPTFLAGS = -O0
+WARNFLAGS = -Wall
+DEBUGFLAGS = -g -ffpe-trap=invalid,zero,overflow -fcheck=bounds -finit-real=snan -fbacktrace
+
+endif
+
+ifdef GPROF
+# Add gprof output
+DEBUGFLAGS += -pg
+endif

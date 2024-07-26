@@ -1,0 +1,42 @@
+# This is a Makefile for the Intel compiler: run "make
+# PROFILE=intel". Need all arrays to be on the heap for it to work,
+# hence -heap-arrays.
+
+NCHOME = /home/peter/netcdf-intel/
+NFHOME = /home/peter/netcdf-intel/
+NETCDF_INCLUDE = -I$(NFHOME)/include -I$(NCHOME)/include
+NETCDF_LIB = -lnetcdff -lnetcdf
+LDFLAGS += -L$(NFHOME)/lib -L$(NCHOME)/lib
+
+FC = ifort
+CC = icc
+CPPFLAGS = 
+
+ifndef DEBUG
+OPTFLAGS = --ipo -O3 -no-prec-div -fp-model fast=2 -march=core-avx2
+#OPTFLAGS = -O3 -xHost #-march=core-avx2
+#OPTFLAGS = -O3 -march=core-avx2 -align array64byte -fma -ftz -fomit-frame-pointer #-qopt-report=2 -fp-model=fast
+else
+#OPTFLAGS = -O3 -march=core-avx2 -ip -m64 -shared-intel -fPIC
+OPTFLAGS = -O0
+endif
+
+#BLAS LIBRARY
+#BLASLIB=mkl
+BLASLIB  = blis-amd
+#BLAS_DIR = $(HOME)/blis-amd
+BLAS_DIR = $(HOME)/amd-blis-3.0.6
+BLASLIB  = blis
+BLAS_DIR = $(HOME)/blis
+
+# GPTL LIBRARY
+#GPTL_TIMING=1
+TIME_DIR=/home/peter/gptl-intel
+#FCLIBS=-lunwind 
+
+LDFLAGS += -lrt
+WARNFLAGS = -warn all
+BASICFLAGS = -module ../mod -convert big_endian -ip -m64 -shared-intel -fPIC
+# -fpe0 -fp-model precise -ftz -fp-speculation safe  
+DEBUGFLAGS = -g
+OMPFLAG = -qopenmp -qopenmp-lib=compat

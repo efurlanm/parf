@@ -1,0 +1,32 @@
+# This is a Makefile for the Intel compiler: run "make
+# PROFILE=intel". Need all arrays to be on the heap for it to work,
+# hence -heap-arrays.
+
+FC = ifort
+CC = icc
+CPPFLAGS = 
+
+ifndef DEBUG
+#IFS options
+OPTFLAGS = -O2 -march=core-avx2 -fpe0 -no-fma -assume byterecl -align array64byte -fp-model precise -ftz -fp-speculation=safe -fast-transcedentals -finline-functions -finline-limit=1500 -Winline #-qopt-report=3 
+
+#OPTFLAGS = --ipo -O3 -no-prec-div -static -fp-model fast=2 -march=core-avx2 #-heap-arrays
+#OPTFLAGS = -O3 -xHost #-march=core-avx2
+else
+OPTFLAGS = -O0
+endif
+
+#BLAS LIBRARY
+BLASLIB=mkl
+
+# location of General Purpose Timing Library (compile with GPTL_TIMING=1 or GPTL_TIMING=2)
+TIME_DIR=/home/papu/gptl-ifort
+FCLIBS=-lunwind 
+
+LDFLAGS = -lrt
+WARNFLAGS = -warn all
+BASICFLAGS = -module ../mod -convert big_endian -fpe0 -fp-model precise -ftz -fp-speculation safe
+DEBUGFLAGS = -g
+
+#OMPFLAG = -qopenmp -qopenmp-lib=compat
+OMPFLAG = -qopenmp 
