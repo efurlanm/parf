@@ -26,7 +26,6 @@ Some materials are in the form of simple files and others are organized in subdi
 * [weka](weka) - contains some links about [Weka](https://www.cs.waikato.ac.nz/ml/weka/).
 * [horovod](horovod) - (see below).
 * [loss](loss) - visualizing the loss landscape of a NN.
-* [ukk23](ukk23) - fork of [rte-rrtmgp-nn](https://github.com/peterukk/rte-rrtmgp-nn). The idea is to replace the [RRTMGP](https://github.com/earth-system-radiation/rte-rrtmgp) lookup table with NN.
 
 
 ## Horovod
