@@ -1,16 +1,8 @@
-# My personal notes on Machine Learning and other random topics
+# My personal notes on Machine Learning and other related topics
 
 *Last edited: 2024-04-23*
 
 This repo contains my collection of materials and random notes I take while researching and playing with Machine Learning (ML) and Artificial Neural Networks (NN). It includes topics such as numerical methods, differential calculus, artificial neural networks, libraries, implementations, materials that I ended up using during my research, and other random topics that I also found interesting. It is a work in progress and subject to constant change.
-
-<br>
-<table>
-  <tr>
-    <td><img src="img/construction.gif"></td>
-    <td>This repo is permanently under construction, so its content changes constantly.</td>
-  </tr>
-</table>
 
 ## Contents
 
@@ -51,3 +43,12 @@ The horovod directory contains some Notebooks with examples:
   * [project3-vae.ipynb](https://github.com/efurlanm/351/blob/main/project3-vae.ipynb) - in machine learning, a variational auto-encoder, is an artificial neural network architecture introduced by Diederik P. Kingma and Max Welling, belonging to the families of probabilistic graphical models and variational Bayesian methods.
   * [project4-cnn.ipynb](https://github.com/efurlanm/351/blob/main/project4-cnn.ipynb) - a Convolutional Neural Network (CNN, or ConvNet) is a class of artificial neural network (NN), most commonly applied to analyze visual imagery.
   * [project5-rnn.ipynb](https://github.com/efurlanm/351/blob/main/project5-rnn.ipynb) - a Recurrent Neural Network (RNN) is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes.
+
+  
+<br>
+<table>
+  <tr>
+    <td><img src="img/construction.gif"></td>
+    <td>This repo is permanently under construction, so its content changes constantly.</td>
+  </tr>
+</table>
