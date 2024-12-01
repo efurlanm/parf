@@ -1,4 +1,4 @@
-# My personal notes on Machine Learning and other related topics
+# My personal notes on Machine Learning and related topics
 
 *Last edited: 2024-04-23*
 
@@ -19,7 +19,6 @@ Some materials are in the form of simple files and others are organized in subdi
 * [horovod](horovod) - (see below).
 * [loss](loss) - visualizing the loss landscape of a NN.
 
-
 ## Horovod
 
 [Horovod](https://horovod.readthedocs.io/en/stable/) was created internally at Uber to make it easy to use a single-GPU training script and successfully scale it to train on many GPUs in parallel.
@@ -29,22 +28,20 @@ The horovod directory contains some Notebooks with examples:
 * [install-horov-tf1-sd.ipynb](horovod/install-horov-tf1-sd.ipynb) - Installing Horovod and TensorFlow v1 on SDumont supercomputer.
 * [hv-tf1-mnist.ipynb](horovod/hv-tf1-mnist.ipynb) - MNIST with TensorFlow v1 using MPI through Horovod, running on SDumont.
 
-
 ## Some info available in my other repos
 
 * In [My MSc repo](https://github.com/efurlanm/msc22) dedicated to my master's thesis, I trained a convolutional NN :
-
-  * The [other](https://github.com/efurlanm/msc22/tree/main/other) directory contains a [PyTorch example](https://github.com/efurlanm/msc22/blob/main/other/pytorch.ipynb) of convolutional NN training using the MNIST database, running on the Santos Dumont supercomputer, [adapted from IDRIS](http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html).
+  
+     * The [other](https://github.com/efurlanm/msc22/tree/main/other) directory contains a [PyTorch example](https://github.com/efurlanm/msc22/blob/main/other/pytorch.ipynb) of convolutional NN training using the MNIST database, running on the Santos Dumont supercomputer, [adapted from IDRIS](http://www.idris.fr/eng/jean-zay/gpu/jean-zay-gpu-torch-multi-eng.html).
 
 * In [CAP-351 course notes](https://github.com/efurlanm/351) I made these Notebooks :
-
-  * [project1-mlp.ipynb](https://github.com/efurlanm/351/blob/main/project1-mlp.ipynb) - Multilayer Perceptron (MLP) is a fully connected class of feed-forward artificial neural network (NN).
-  * [project2-som.ipynb](https://github.com/efurlanm/351/blob/main/project2-som.ipynb) - a self-organizing map or self-organizing feature map is an unsupervised machine learning technique used to produce a low-dimensional representation of a higher dimensional data set while preserving the topological structure of the data.
-  * [project3-vae.ipynb](https://github.com/efurlanm/351/blob/main/project3-vae.ipynb) - in machine learning, a variational auto-encoder, is an artificial neural network architecture introduced by Diederik P. Kingma and Max Welling, belonging to the families of probabilistic graphical models and variational Bayesian methods.
-  * [project4-cnn.ipynb](https://github.com/efurlanm/351/blob/main/project4-cnn.ipynb) - a Convolutional Neural Network (CNN, or ConvNet) is a class of artificial neural network (NN), most commonly applied to analyze visual imagery.
-  * [project5-rnn.ipynb](https://github.com/efurlanm/351/blob/main/project5-rnn.ipynb) - a Recurrent Neural Network (RNN) is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes.
-
   
+     * [project1-mlp.ipynb](https://github.com/efurlanm/351/blob/main/project1-mlp.ipynb) - Multilayer Perceptron (MLP) is a fully connected class of feed-forward artificial neural network (NN).
+     * [project2-som.ipynb](https://github.com/efurlanm/351/blob/main/project2-som.ipynb) - a self-organizing map or self-organizing feature map is an unsupervised machine learning technique used to produce a low-dimensional representation of a higher dimensional data set while preserving the topological structure of the data.
+     * [project3-vae.ipynb](https://github.com/efurlanm/351/blob/main/project3-vae.ipynb) - in machine learning, a variational auto-encoder, is an artificial neural network architecture introduced by Diederik P. Kingma and Max Welling, belonging to the families of probabilistic graphical models and variational Bayesian methods.
+     * [project4-cnn.ipynb](https://github.com/efurlanm/351/blob/main/project4-cnn.ipynb) - a Convolutional Neural Network (CNN, or ConvNet) is a class of artificial neural network (NN), most commonly applied to analyze visual imagery.
+     * [project5-rnn.ipynb](https://github.com/efurlanm/351/blob/main/project5-rnn.ipynb) - a Recurrent Neural Network (RNN) is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes.
+
 <br>
 <table>
   <tr>
