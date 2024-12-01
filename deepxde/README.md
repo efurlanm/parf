@@ -2,7 +2,7 @@
 
 This directory contains some material directly related to the [DeepXDE library](https://deepxde.readthedocs.io/en/latest/index.html), including examples taken from the documentation and other sources. It is a work in progress and is constantly changing.
 
-Unsorted files:
+(unordered)
 
 - [demo-burgers-equation.ipynb](demo-burgers-equation.ipynb) - time-dependent PDEs. Burgers equation
 
